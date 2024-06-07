@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import Navbar from "./Navbar";
 import reportWebVitals from "./reportWebVitals";
+import Hero from "./Hero";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,6 +12,8 @@ root.render(
     <Navbar />
 
     <App />
+
+    <Hero />
   </React.StrictMode>
 );
 

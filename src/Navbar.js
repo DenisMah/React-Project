@@ -2,14 +2,25 @@ import "./Navbar.css";
 
 function navbar() {
   return (
-    <nav>
-      <h3>Deenko.dev</h3>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div className="container-fluid">
+      <nav>
+        <h3>Deenko.dev</h3>
+        <ul>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
+          <li>
+            <a>Project</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
