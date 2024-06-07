@@ -1,4 +1,97 @@
-p {
-  font-weight: 900;
-  font-size: 300px;
+.herodiv {
+  margin-top: 15rem;
+
+  width: 3500px;
+}
+
+.herodiv-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.herodiv-information h1 {
+  margin: 10px 0px;
+  line-height: 1.2;
+  color: #2d2e32;
+  font-weight: 700;
+}
+
+.herodiv-information h2 {
+  margin: 10px 0px;
+  line-height: 1.2;
+  color: #2d2e32;
+  font-weight: 700;
+}
+
+.herodiv-information h3 {
+  margin: 10px 0px;
+  line-height: 1.2;
+  color: #2d2e32;
+  font-weight: 700;
+}
+
+.herodiv-information p {
+  margin: 10px 0px;
+  color: #555;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.herodiv-picture {
+  background-image: url(./static/denis-image.jpg);
+  animation: morph 8s ease-in-out infinite;
+  background-size: cover;
+  border: 3px solid black;
+  height: 35rem;
+  width: 35rem;
+  transition: all 1s ease-in-out;
+}
+
+.techStack {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techStack p {
+  color: #555;
+  padding-right: 25px;
+  border-right: 3px solid rgba(0, 0, 0, 0.9);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.37rem;
+}
+
+.skills li {
+  transition: all 0.3s ease-in-out;
+  list-style-type: none;
+}
+
+.skills li:hover {
+  cursor: pointer;
+  transform: translateY(-1rem);
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
 }

@@ -1,9 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// src/App.js
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 function App() {
-  return <h1> Test </h1>;
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
