@@ -1,0 +1,31 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+
+  height: 600px;
+  width: 100%;
+}
+
+.aboutMePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 35%;
+}
+.aboutMePicture img {
+  box-shadow: 3px 3px 15px 15px rgba(0, 0, 55, 0.37);
+  height: 80%;
+  width: 80%;
+  border-radius: 35px;
+}
+
+.aboutMeText {
+  width: 35%;
+  padding-left: 25px;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}

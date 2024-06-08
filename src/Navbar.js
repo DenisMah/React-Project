@@ -1,23 +1,33 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import "@fontsource/roboto/700.css";
 
-function navbar() {
+function Navbar() {
   return (
     <div className="container-fluid" id="navbar-container">
       <nav>
         <h3>Deenko.dev</h3>
         <ul>
           <li>
-            <a className="anchor-navbar">Home</a>
+            <Link to="/" className="anchor-navbar">
+              Home
+            </Link>
           </li>
           <li>
-            <a className="anchor-navbar">About</a>
+            <Link to="/aboutme" className="anchor-navbar">
+              About
+            </Link>
           </li>
           <li>
-            <a className="anchor-navbar">Project</a>
+            <Link to="/projects" className="anchor-navbar">
+              Projects
+            </Link>
           </li>
           <li>
-            <a className="anchor-navbar">Contact</a>
+            <Link to="/contact" className="anchor-navbar">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
@@ -25,4 +35,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

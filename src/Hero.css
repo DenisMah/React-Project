@@ -1,6 +1,5 @@
 .herodiv {
   margin-top: 15rem;
-
   width: 3500px;
 }
 
@@ -11,6 +10,9 @@
 }
 
 .herodiv-information h1 {
+  transition: all 0.26s ease-in-out;
+  font-family: monospace;
+  font-size: 3rem;
   margin: 10px 0px;
   line-height: 1.2;
   color: #2d2e32;
@@ -18,6 +20,9 @@
 }
 
 .herodiv-information h2 {
+  transition: all 0.26s ease-in-out;
+  font-family: monospace;
+  font-size: 2.5rem;
   margin: 10px 0px;
   line-height: 1.2;
   color: #2d2e32;
@@ -25,13 +30,27 @@
 }
 
 .herodiv-information h3 {
+  transition: all 0.26s ease-in-out;
+  font-size: 2rem;
+  font-family: monospace;
   margin: 10px 0px;
   line-height: 1.2;
   color: #2d2e32;
   font-weight: 700;
 }
 
+h1:hover {
+  color: #147efb;
+}
+h2:hover {
+  color: #147efb;
+}
+h3:hover {
+  color: #147efb;
+}
+
 .herodiv-information p {
+  font-family: monospace;
   margin: 10px 0px;
   color: #555;
   font-weight: 500;

@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-
+import "@fontsource/roboto/700.css";
 import { Typography } from "@mui/material";
 import "./Hero.css";
 
