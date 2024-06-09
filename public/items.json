@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Carisma",
+    "description": "A fully responsive web app designed for car rental. The website provides a sleek & modern look, and has been built completely using React & Angular.",
+    "image": "car-image.png"
+  },
+  {
+    "id": 2,
+    "name": "NFTMRKT",
+    "description": "An NFT marketplace app, built with React & Angular. The website has been ranked as the most popular NFT marketplace, with over 185.000 thousand daily users!",
+    "image": "nftmarketplace.jpg"
+  }
+]

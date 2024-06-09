@@ -25,7 +25,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/contactme" className="anchor-navbar">
+            <Link to="/contactttme" className="anchor-navbar">
               Contact
             </Link>
           </li>

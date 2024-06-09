@@ -18,7 +18,7 @@ function hero() {
             Bosnia & Herzegowina.
           </p>
 
-          <div className="techStack">
+          <div className="techStack" color="primary">
             <p>Tech-Stack</p>
 
             <div className="skills">
